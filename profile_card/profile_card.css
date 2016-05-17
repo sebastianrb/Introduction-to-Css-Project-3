@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: 20px auto;
+    font-family: "Hine", sans-serif;
+    color: #927575;
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+/*    border: 2px solid navy;*/
+    min-width: 600px;
+}
+
+.profile-card {
+    width: 55%;
+    margin: 20px auto;
+    background: rgba(249, 240, 240, 0.89);
+    height: auto;
+    border-radius: 0;
+    padding: 25px 25px 25px 35px;
+    border: 1px solid #D0CACA;
+    border-left: 2px solid #D0CACA;
+    box-shadow: inset 8px 0 24px -17px rgba(0,0,0,0.6);
+    text-align: left;
+}
+
+.card-images {
+    width: 100%;
+    overflow: auto;
+}
+
+img {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    border: 1px solid #6B2D2D;
+}
+
+.about-me {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#charleston {
+    width: 33%;
+}
+
+#half-marathon {
+    width: 40%;
+}
